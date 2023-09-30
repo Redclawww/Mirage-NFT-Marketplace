@@ -36,7 +36,7 @@ const AboutUs = () => {
                 </div>
                 <div className="page-3">
                     <h2>
-                        STRENGTHING TRUST IN THE WORLD OF METAVERSE..
+                        STRENGTHING TRUST <br/> IN THE WORLD OF METAVERSE..
                     </h2>
                     <div className="page-3_content">
                         <p>
