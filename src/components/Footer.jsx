@@ -27,13 +27,13 @@ const Footer = () => {
         </ul>
      </div>
      <div id='box4'>
-     <ul>
+     {/* <ul>
         <li>Social Media</li>
         <li><FontAwesomeIcon icon="fa-brands fa-facebook" /></li>
         <li><FontAwesomeIcon icon="fa-brands fa-instagram" /></li>
         <li><FontAwesomeIcon icon="fa-brands fa-linkedin" /></li>
         <li><FontAwesomeIcon icon="fa-brands fa-x-twitter" /></li>
-        </ul>
+        </ul> */}
      </div>
 
      
