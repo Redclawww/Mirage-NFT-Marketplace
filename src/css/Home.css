@@ -21,10 +21,11 @@
     font-size: 3rem;
     top: 250px;
    left: 340px;
+   z-index: 10;
 }
 
 .page1 video{
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100vw;
