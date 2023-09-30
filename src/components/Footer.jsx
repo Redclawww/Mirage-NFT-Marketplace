@@ -1,42 +1,36 @@
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import '../css/Footer.css'
-import logo from './'
+import logo from '../assets/photos/logo.png'
 
 const Footer = () => {
   return (
     <footer>
-    <div id='box1'>
+    <div className="logo-div">
     <img src={logo} alt='Logo' />
-     <p>Lorem ispum is simply dummy text of printing and typesetting industry</p>
+     <p>Lorem ispum is simply dummy text of <br />printing and typesetting industry</p>
     </div>
-     <div id='box2'>
-     <ul>
-        <li>Mirage</li>
-        <li>Explore</li>
-        <li>How it works</li>
-        <li>Create</li>
-        <li>Support</li>
-     </ul>
+     <div className='box1'>
+        <p id="start">Mirage</p>
+        <p>Explore</p>
+        <p>How it works</p>
+        <p>Create</p>
+        <p>Support</p>
      </div>
-     <div id='box3'>
-     <ul>
-        <li>Community</li>
-        <li>Discussion</li>
-        <li>Docs</li>
-        <li>Contact</li>
-        </ul>
-     </div>
-     <div id='box4'>
-     <ul>
-        <li>Social Media</li>
-        <li><FontAwesomeIcon icon="fa-brands fa-facebook" /></li>
-        <li><FontAwesomeIcon icon="fa-brands fa-instagram" /></li>
-        <li><FontAwesomeIcon icon="fa-brands fa-linkedin" /></li>
-        <li><FontAwesomeIcon icon="fa-brands fa-x-twitter" /></li>
-        </ul>
-     </div>
-
-     
+     <div className='box2'>
+        <p id="start">Community</p>
+        <p>Discussion</p>
+        <p>Docs</p>
+        <p>Contact</p>
+        </div>
+     <div className='box3'>
+        <p id="start">Social Media</p>
+        <div className="icons">
+        <FontAwesomeIcon icon="fa-brands fa-facebook" />
+        <FontAwesomeIcon icon="fa-brands fa-instagram" />
+        <FontAwesomeIcon icon="fa-brands fa-pnkedin" />
+        <FontAwesomeIcon icon="fa-brands fa-x-twitter" />
+        </div>
+        </div>
     </footer>
   )
 }

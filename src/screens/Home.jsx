@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import "../css/Home.css";
+import Footer from "../components/Footer";
 import game from "../assets/photos/Home/group1757.png";
 import ecom from "../assets/photos/Home/group1758.png";
 import art from "../assets/photos/Home/group1759.png";
@@ -168,7 +169,9 @@ const Home = () => {
             </div>
           </div>
       </div>
+      <Footer />
     </div>
+    
   );
 };
 
