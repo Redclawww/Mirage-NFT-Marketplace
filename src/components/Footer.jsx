@@ -1,6 +1,9 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import '../css/Footer.css'
 import logo from '../assets/photos/logo.png'
+import facebook from '../assets/photos/facebook.png'
+import instagram from '../assets/photos/instagram.png'
+import linkedin from '../assets/photos/linkedin.png'
+import twitter from '../assets/photos/twitter.png'
 
 const Footer = () => {
   return (
@@ -25,10 +28,10 @@ const Footer = () => {
      <div className='box3'>
         <p id="start">Social Media</p>
         <div className="icons">
-        <FontAwesomeIcon icon="fa-brands fa-facebook" />
-        <FontAwesomeIcon icon="fa-brands fa-instagram" />
-        <FontAwesomeIcon icon="fa-brands fa-pnkedin" />
-        <FontAwesomeIcon icon="fa-brands fa-x-twitter" />
+         <img src={facebook} alt="" />
+         <img src={instagram} alt="" />
+         <img src={linkedin} alt="" />
+         <img src={twitter} alt="" />
         </div>
         </div>
     </footer>
