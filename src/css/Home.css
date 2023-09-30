@@ -166,6 +166,10 @@
     width: 60px;
 }
 
+.box-inner::hover{
+    scale: 1.1;
+}
+
 .box-div{
     display: flex;
     flex-direction: column;
@@ -181,6 +185,10 @@
     padding: 50px 0;
     text-align: center;
     gap: 40px;
+}
+
+Link{
+    text-decoration: none;
 }
 
 .page4 h2{
