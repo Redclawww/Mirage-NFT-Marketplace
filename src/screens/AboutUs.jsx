@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar'
 import Frame from '../assets/photos/Frame.png'
 import arist from '../assets/photos/aristocrateig.png'
 import specguys from '../assets/photos/specsguy.png'
+import tashi from '../assets/photos/IMG_20230610_230816_043.jpg'
 
 const AboutUs = () => {
   return (
@@ -35,7 +36,7 @@ const AboutUs = () => {
                 </div>
                 <div className="page-3">
                     <h2>
-                        STRENGTHING TRUST IN THE WORLD OF METAVERSE..
+                        STRENGTHING TRUST <br/> IN THE WORLD OF METAVERSE..
                     </h2>
                     <div className="page-3_content">
                         <p>
@@ -50,7 +51,7 @@ const AboutUs = () => {
                     <h2>OUR TEAM</h2>
                     <div className="team-images">
                         <img src={arist} alt="Raghav" />
-                        <img src={Frame} alt="Tashi" />
+                        <img src={tashi} alt="Tashi" />
                         <img src={specguys} alt="Kush" /> 
                     </div>
                     <p>Everyone gets the freedom to explore and learn with no restriction.</p>

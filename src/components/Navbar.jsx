@@ -1,4 +1,4 @@
-import React from 'react'
+
 import '../css/Navbar.css'
 import logo from '../assets/photos/logo.png'
 import { Link } from 'react-router-dom'
@@ -10,7 +10,7 @@ const Navbar = () => {
     <ul>
         <li>Home</li>
         <li>Marketplace</li>
-        <li><Link to='/aboutus'>About us</Link></li>
+        <Link to='/aboutus'><li>About us</li></Link>
         <li>More</li>
         <li><button>Login</button></li>
         <li><button>Signup</button></li>

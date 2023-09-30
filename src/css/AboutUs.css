@@ -120,6 +120,7 @@
       border-radius: 50%;
       height: 217px;
       width: 217px;
+      object-fit: cover;
     }
   
     .page-4 p{
