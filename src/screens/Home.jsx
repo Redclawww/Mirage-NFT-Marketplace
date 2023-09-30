@@ -10,6 +10,7 @@ import banner1 from "../assets/photos/Home/group1784.png";
 import banner2 from "../assets/photos/Home/group1809.png";
 import nft from "../assets/photos/Home/nft.png";
 import arrow from "../assets/photos/Home/arrow.png"
+import apevid from "../assets/videos/playback.mp4";
 
 const Home = () => {
   return (
@@ -22,7 +23,7 @@ const Home = () => {
             <br />
             DECENTRALIZED REVOLUTION
           </h1>
-          {/* <video src="https://youtube.com/embed/lNWnjZjgbQM" muted autoPlay loop ></video> */}
+          <video src={apevid} muted autoPlay loop ></video>
         </div>
         <div className="page2">
           <h2>NFT DIGITAL ASSET OF ‘UNIQUENESS’</h2>
@@ -146,7 +147,7 @@ const Home = () => {
                 <br />I want this to be...
               </h2>
               <p>
-                Yubaari Army is committed to amaze you, <br /> We would also like to
+                Mirage Army is committed to amaze you, <br /> We would also like to
                 know what features you want us to drop! <br /> The possibilities are
                 endless.... Don’t hesitate go on
               </p>
