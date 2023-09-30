@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import "../css/Home.css";
-// import game from "../assets/photos/Home/group1757.png";
+import Footer from "../components/Footer";
+import game from "../assets/photos/Home/group1757.png";
 import ecom from "../assets/photos/Home/group1758.png";
 import art from "../assets/photos/Home/group1759.png";
 import luxury from "../assets/photos/Home/group1761.png";
@@ -63,7 +64,7 @@ const Home = () => {
           <div className="box">
             <div className="box-div">
               <div className="box-inner">
-                <img src="" alt="" />
+                <img src={game} alt="" />
                 <h3>Gaming & Sports</h3>
               </div>
               <div className="box-inner">
@@ -168,7 +169,9 @@ const Home = () => {
             </div>
           </div>
       </div>
+      <Footer />
     </div>
+    
   );
 };
 
