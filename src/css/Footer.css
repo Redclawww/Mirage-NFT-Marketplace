@@ -32,7 +32,10 @@ footer{
   
 .icons{
   display: flex;
-  flex-direction: column;
+  gap: 10px;
 }
 
+.icons img{
+  height: 25px;
+}
 
