@@ -50,7 +50,7 @@ const Home = () => {
             <p>No Mess. No Clutter. Only you.</p>
           </div>
           <button>Join the revolution  </button>
-          <h2>I’m interested </h2>
+          <h1>I’m interested </h1>
           <div className="subscribe-input">
           <input type="email" placeholder="Enter your email" />
           <div className="subscribe-btn">
@@ -121,7 +121,7 @@ const Home = () => {
           </div>
           <div className="page5-right_section">
             <h2>
-              SO,
+              So,
               <br />
               What is an NFT?
             </h2>
