@@ -2,6 +2,14 @@
     font-family: bine;
     src: url('../assets/Fonts/Fontspring-DEMO-biennale-bold.otf');
 }
+@font-face {
+    font-family: poppins;
+    src: url(../assets/Fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: roboto;
+    src: url(../assets/Fonts/Roboto-Regular.ttf);
+}
 
 .home{
     width: 100%;
@@ -47,12 +55,16 @@
 }
 
 .page2 h2{
-    font-family: bine;
+    font-family: roboto;
 }
 
+.page2 h1{
+    font-family: roboto;
+}
 .page2 p{
     font-size: 16px;
     letter-spacing: 1px;
+    font-family: poppins;
 }
 
 .page2 .middle{
@@ -144,7 +156,9 @@
     text-align: center;
     padding: 30px 0;
 }
-
+.page3 .box .box-div .box-inner h3{
+    font-family: poppins;
+}
 .page3 .box{
     display: flex;
     flex-wrap: wrap;
@@ -152,14 +166,15 @@
     align-items: center;
     gap: 8vw;
 }
-
+.page3 h2{
+    font-family: poppins;
+}
 .box-inner{
     display: flex;
     align-items: center;
     gap: 10px;
     flex-direction: column;
 }
-
 
 .page3 img{
     height: 60px;
@@ -193,6 +208,7 @@ Link{
 
 .page4 h2{
     font-size: 42px;
+    font-family: poppins;
 }
 
 .page4 img{
@@ -228,10 +244,13 @@ Link{
 .page5-right_section h2{
     font-style: 800;
     font-size: 40px;
+    font-family: poppins;
 }
 
 .page5-right_section p{
     font-size: 26px;
+    font-family: poppins;
+
 }
 
 .page5-right_section button{
@@ -262,12 +281,16 @@ Link{
     
 }
 
-.page6-left h2{
+.page6 .page6-left h2{
     font-size: 60px;
+    font-family: poppins;
+    font-weight: 600;
 }
 
-.page6-left p{
+.page6 .page6-left p{
     font-size: 32px;
+    font-family: poppins;
+    font-weight: 200;
 }
 
 .page6-right form{

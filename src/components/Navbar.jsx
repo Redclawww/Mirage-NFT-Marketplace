@@ -12,7 +12,7 @@ const Navbar = () => {
         <li>Marketplace</li>
         <Link to='/aboutus' style={{ textDecoration: 'none' }}><li>About us</li></Link>
         <li>More</li>
-        <li><button>Login</button></li>
+        <Link to='/login' style={{ textDecoration: 'none' }}><li><button>Login</button></li></Link>
         <li><button>Signup</button></li>
     </ul>
     </nav>

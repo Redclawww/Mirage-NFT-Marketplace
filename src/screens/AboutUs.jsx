@@ -4,7 +4,7 @@ import Frame from '../assets/photos/Frame.png'
 import arist from '../assets/photos/aristocrateig.png'
 import specguys from '../assets/photos/specsguy.png'
 import tashi from '../assets/photos/IMG_20230610_230816_043.jpg'
-
+import raghav from '../assets/photos/raghav.jpg';
 const AboutUs = () => {
   return (
     <>
@@ -50,8 +50,8 @@ const AboutUs = () => {
                 <div className="page-4">
                     <h2>OUR TEAM</h2>
                     <div className="team-images">
-                        <img src={arist} alt="Raghav" />
                         <img src={tashi} alt="Tashi" />
+                        <img src={raghav} alt="Raghav" />
                         <img src={specguys} alt="Kush" /> 
                     </div>
                     <p>Everyone gets the freedom to explore and learn with no restriction.</p>
