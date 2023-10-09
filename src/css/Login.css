@@ -1,13 +1,66 @@
-.Box1{
-    width: 100%;
-    height: 100%;
-    background-color: #525561;
+@font-face {
+  font-family: poppins;
+  src: url(../assets/Fonts/Poppins-Medium.ttf);
 }
-.Box2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 80%;
-    height: 80%;
-    border-radius: 50%;
+@font-face {
+  font-family: roboto;
+  src: url(../assets/Fonts/Roboto-Regular.ttf);
 }
+
+.Box1 {
+  width: 100%;
+  height: 100vh;
+  background-color: #525561;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Box2 {
+  background-image: url(../assets/photos/cyber.jpg);
+  width: 85vw;
+  border-radius: 20px;
+  height: 80vh;
+  position: relative;
+  
+}
+
+.Box2  h3 {
+  font-family: poppins;
+  padding-left: 70px;
+  padding-top: 70px;
+}
+.Box2 h1 {
+  font-family: poppins;
+  padding-left: 60px;
+  padding-top: 30px;
+  font-size: 50px;
+}
+.Box2 p {
+  font-family: roboto;
+  font-family: poppins;
+  padding-left: 79px;
+  font-size: 15px;
+}
+.Box2 #btn{
+    background: #1D90F5;
+    color: #fff;
+    padding: 1rem 3rem;
+    font-size: 1.7rem;
+    width: 250px;
+    font-weight: 400;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    margin-top:16%;
+    margin-left: 10%;
+}
+
+.Box2 #btn:hover {
+    background: #fff;
+    box-shadow: 0px 2px 20px 10px
+    #97B1BF;
+    
+}
+
+
