@@ -10,7 +10,7 @@ import loyal from "../assets/photos/Home/group1763.png";
 import banner1 from "../assets/photos/Home/group1784.png";
 import banner2 from "../assets/photos/Home/group1809.png";
 import nft from "../assets/photos/Home/nft.png";
-import arrow from "../assets/photos/Home/arrow.png"
+import arrow from "../assets/photos/Home/arrow.png";
 import apevid from "../assets/videos/playback.mp4";
 
 const Home = () => {
@@ -24,7 +24,7 @@ const Home = () => {
             <br />
             DECENTRALIZED REVOLUTION
           </h1>
-          <video src={apevid} muted autoPlay loop ></video>
+          <video src={apevid} muted autoPlay loop></video>
         </div>
         <div className="page2">
           <h2>NFT DIGITAL ASSET OF ‘UNIQUENESS’</h2>
@@ -49,14 +49,14 @@ const Home = () => {
             </h2>
             <p>No Mess. No Clutter. Only you.</p>
           </div>
-          <button>Join the revolution  </button>
+          <button>Join the revolution </button>
           <h1>I’m interested </h1>
           <div className="subscribe-input">
-          <input type="email" placeholder="Enter your email" />
-          <div className="subscribe-btn">
-            <p>subscribe</p>
-            <div className="circle">.</div>
-          </div>
+            <input type="email" placeholder="Enter your email" />
+            <div className="subscribe-btn">
+              <p>subscribe</p>
+              <div className="circle">.</div>
+            </div>
           </div>
         </div>
         <div className="page3">
@@ -104,10 +104,10 @@ const Home = () => {
         <div className="page4">
           <img src={banner1} alt="" />
           <div className="subscribe-input">
-          <input type="email" placeholder="Enter your email" />
-          <div className="circle-arrow">
-            <img src={arrow} alt="" />
-          </div>
+            <input type="email" placeholder="Enter your email" />
+            <div className="circle-arrow">
+              <img src={arrow} alt="" />
+            </div>
           </div>
           <h2>
             Are you Going to Change the World ?<br />
@@ -140,38 +140,45 @@ const Home = () => {
               Learn More <img src={arrow} alt="" />
             </button>
           </div>
+        </div>
+        <div className="page6">
+          <div className="page6-left">
+            <h2>
+              Hey Mirage,
+              <br />I want this to be...
+            </h2>
+            <p>
+              Mirage Army is committed to amaze you, <br /> We would also like
+              to know what features you want us to drop! <br /> The
+              possibilities are endless.... Don’t hesitate go on
+            </p>
           </div>
-          <div className="page6">
-            <div className="page6-left">
-              <h2>
-                Hey Mirage,
-                <br />I want this to be...
-              </h2>
-              <p>
-                Mirage Army is committed to amaze you, <br /> We would also like to
-                know what features you want us to drop! <br /> The possibilities are
-                endless.... Don’t hesitate go on
-              </p>
-            </div>
-            <div className="page6-right">
-                <form action="">
-                  <label htmlFor="">Where Should we Contact you?</label>
-                  <input type="email" placeholder="Enter your email"/>
-                  <label htmlFor="">What NFT are you Thinking of?</label>
-                  <select name="nftType" placeholder="Select NFT Type" >
-                    <option value="ArtNFT">Art NFT</option>
-                    <option value="GamingNFT">Gaming NFTs</option>
-                    <option value="CollectibleNFT">Collectible NFTs</option>
-                  </select>
-                  <textarea name="description" id="" cols="40" rows="5" placeholder="Tell us more about your NFTs"></textarea>
-                  <button>Send Message <img src={arrow} alt="" /></button>
-                </form>
-            </div>
+          <div className="page6-right">
+            <form action="">
+              <label htmlFor="">Where Should we Contact you?</label>
+              <input type="email" placeholder="Enter your email" />
+              <label htmlFor="">What NFT are you Thinking of?</label>
+              <select name="nftType" placeholder="Select NFT Type">
+                <option value="ArtNFT">Art NFT</option>
+                <option value="GamingNFT">Gaming NFTs</option>
+                <option value="CollectibleNFT">Collectible NFTs</option>
+              </select>
+              <textarea
+                name="description"
+                id=""
+                cols="40"
+                rows="5"
+                placeholder="Tell us more about your NFTs"
+              ></textarea>
+              <button>
+                Send Message <img src={arrow} alt="" />
+              </button>
+            </form>
           </div>
+        </div>
       </div>
       <Footer />
     </div>
-    
   );
 };
 
