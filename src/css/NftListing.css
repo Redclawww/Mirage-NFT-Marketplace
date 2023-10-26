@@ -1,0 +1,54 @@
+.nft-marketplace{
+    height: 100%;
+    width: 100%;
+}
+
+.page-layout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-left{
+    width: 329px;
+    height: 100vh;
+    background: #DCDADA;
+    margin: 15px;
+    border-radius: 25px 20px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-direction: column;
+    color: #000000;
+}
+
+.content-left img{
+    width: 200px;
+    margin: 20px;
+}
+
+.content-middle{
+    width: 1200px;
+    height: 100vh;
+    background-color: beige;
+}
+
+.content-right{
+    width: 329px;
+    height: 100vh;
+    background-color: royalblue;
+} 
+
+.marketplace{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.account{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
