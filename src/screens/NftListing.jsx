@@ -22,7 +22,13 @@ const NftListing = () => {
                     <li>Settings</li>
             </div>
         </div>
-        <div className="content-middle"></div>
+        <div className="content-middle">
+          <div className="topbar">
+            <input type="text" placeholder="search"/>
+            <div className="wallet">1234 ETH</div>
+            <div className="notification"></div>
+          </div>
+        </div>
         <div className="content-right"></div>
       </div>
       <Footer />

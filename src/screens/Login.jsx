@@ -1,4 +1,4 @@
-import React from "react";
+
 import "../css/Login.css";
 import genie from "../assets/photos/genie.jpg";
 import { Link } from "react-router-dom";
@@ -34,13 +34,15 @@ const Login = () => {
       localStorage.setItem("authToken", json.authToken);
       localStorage.setItem("userEmail", credentials.email);
 
-    const handleChange = async (event) => {
-        setCredentials({
-          ...credentials,
-          [event.target.name]: event.target.value,
-        });
-      };
+    
     }
+  };
+
+  const handleChange = async (event) => {
+    setCredentials({
+      ...credentials,
+      [event.target.name]: event.target.value,
+    });
   };
 
   return (
