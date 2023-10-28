@@ -1,0 +1,12 @@
+.Card{
+    height: 300px;
+    width: 250px;
+    background-color: grey;
+    border-radius: 25px;
+}
+
+.Card img{
+    height: 70%;
+    object-fit: contain;
+}
+

@@ -9,7 +9,7 @@ const Navbar = () => {
     <img src={logo} alt="Logo" />
     <ul>
         <Link to='/' style={{ textDecoration: 'none' }}><li>Home</li></Link>
-        <Link to='/nftlisting' style={{ textDecoration: 'none' }}><li>Markteplace</li></Link>
+        <Link to='/nftlisting' style={{ textDecoration: 'none' }}><li>Marketplace</li></Link>
         <Link to='/aboutus' style={{ textDecoration: 'none' }}><li>About us</li></Link>
         <li>More</li>
         <Link to='/login' style={{ textDecoration: 'none' }}><li><button>Login</button></li></Link>

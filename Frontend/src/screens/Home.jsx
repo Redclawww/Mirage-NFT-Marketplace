@@ -24,6 +24,7 @@ const Home = () => {
             <br />
             DECENTRALIZED REVOLUTION
           </h1>
+          <button>Connect Wallet</button>
           <video src={apevid} muted autoPlay loop></video>
         </div>
         <div className="page2">

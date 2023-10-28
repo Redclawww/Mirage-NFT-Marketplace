@@ -33,6 +33,21 @@
    z-index: 10;
 }
 
+.page1 button{
+    position: absolute;
+    font-family: bine;
+    font-size: 2rem;
+    padding: 10px 20px;
+    border-radius: 35px;
+    border: none;
+    top: 400px;
+   left: 340px;
+   z-index: 10;
+   color: #FFFFFF;
+   background-color: #00D0DD;
+}
+
+
 .page1 video{
     position: absolute;
     top: 0;

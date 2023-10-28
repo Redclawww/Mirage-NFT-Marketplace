@@ -33,13 +33,16 @@
 .content-middle{
     width: 1200px;
     height: 100vh;
-    background-color: beige;
+
+    border-radius: 20px;
 }
 
 .content-right{
     width: 329px;
     height: 100vh;
-    background-color: royalblue;
+    margin: 15px;
+    padding-top: 15px;
+    align-items: center;
 } 
 
 .marketplace{
@@ -70,13 +73,35 @@
 }
 
 .topbar{
-    height: 10vh;
+    height: 12vh;
     width: 100%;
     display: flex;
-    align-items: center;
-
+    /* align-items: center; */
+    justify-content: space-between;
     color: #000000;
     gap: 30px;
+}
+.wallet{
+    background-color: #DCDADA;
+    padding: 7px 15px;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.notification{
+    padding: 7px 15px;
+    background-color: #DCDADA;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+}
+
+.notification img{
+    width: 30px;
 }
 
 .topbar input{
@@ -84,13 +109,66 @@
     height: 60%;
     border-radius: 20px;
     border: none;
-    background-color: #B5B2B2;
+
+    padding-left: 30px;
+    background-color: #DCDADA;
     
 }
 
-.topbar input::placeholder{
+.create-nft{
+    height: 350px;
+    border-radius: 20px;
+    display: flex;
+    background-image: url('../assets/photos/bgNFT.png');
+    align-items: center;
+    gap: 70px;
+}
+
+.create-nft img{
+    height: 300px;
     padding-left: 30px;
 }
+
+.create-nft-left{
+    margin-left: 60px;
+    width: 500px;
+}
+
+.create-nft-left h1{
+    font-family: 'poppins',sans-serif;
+    font-size: 60px;
+    font-family: 700;
+    margin-bottom: 20px;
+}
+
+.create-nft-left .button1{
+    padding: 5px 25px;
+    border-radius: 20px;
+    color: white;
+    background-color:#00D0DD;
+    border: none;
+    font-size: 20px;
+}
+
+.create-nft-left .button2{
+    padding: 5px 25px;
+    border-radius: 20px;
+    color: white;
+    background-color:transparent;
+    border: 1px solid #00D0DD;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.user{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: black;
+}
+
+
 
 
 

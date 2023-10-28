@@ -33,8 +33,6 @@ const Login = () => {
       navigate("/");
       localStorage.setItem("authToken", json.authToken);
       localStorage.setItem("userEmail", credentials.email);
-
-    
     }
   };
 
