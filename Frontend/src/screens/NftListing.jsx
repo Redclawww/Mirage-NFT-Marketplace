@@ -45,12 +45,11 @@ const NftListing = () => {
             </div>
             <img src={specsguy} alt="" />
           </div>
-          <div className=".cars-section">
+          <div className="cards-section">
             <h1>HOT DROPS</h1>
             <div className="card">
             <Card />
-            </div>
-            
+            </div>           
           </div>
         </div>
         <div className="content-right">

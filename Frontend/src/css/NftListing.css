@@ -7,6 +7,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 100px;
 }
 
 .content-left{
@@ -166,6 +167,10 @@
     align-items: center;
     gap: 20px;
     color: black;
+}
+
+.cards-section{
+    margin-bottom: 10px;
 }
 
 
