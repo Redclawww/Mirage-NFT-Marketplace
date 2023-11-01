@@ -7,8 +7,11 @@ import msg from '../assets/photos/message.png'
 import user from '../assets/photos/user.jpeg'
 import Card from "../components/Card";
 
+
+
 const NftListing = () => {
 
+ 
   return (
     <div className="nft-marketplace">
       <div className="page-layout">

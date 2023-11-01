@@ -9,11 +9,11 @@ import './App.css'
 import Login from "./screens/Login";
 import Signup from "./screens/Signup";
 import NftListing from "./screens/NftListing";
-//import { AppProps } from "next/app";
-//import { ThirdwebProvider } from "@thirdweb-dev/react";
-//import Navbar from "../components/Navbar";
+// import { AppProps } from "next/app";
+// import { ThirdwebProvider } from "@thirdweb-dev/react";
+// //import Navbar from "../components/Navbar";
 
-const activeChain = "Sepolia";
+// const activeChain = "Sepolia";
 
 function App() {
 

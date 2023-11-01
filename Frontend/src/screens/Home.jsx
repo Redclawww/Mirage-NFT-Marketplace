@@ -15,6 +15,16 @@ import apevid from "../assets/videos/playback.mp4";
 //import React, {useContext} from 'react';
 
 function Home(){
+
+  // const [wallet, setWallet] = useState();
+
+  // async function connectWallet() {
+  //   const wallet = await ConnectWallet();
+  //   setWallet(wallet);
+  // }
+
+
+
   return (
     <div>
       <Navbar />
@@ -26,6 +36,8 @@ function Home(){
             DECENTRALIZED REVOLUTION
           </h1>
             <button>Connect Wallet</button>
+            
+            
           <video src={apevid} muted autoPlay loop></video>
         </div>
         <div className="page2">
@@ -179,9 +191,10 @@ function Home(){
           </div>
         </div>
       </div>
+      
       <Footer />
     </div>
   );
-};
+}
 
 export default Home;
