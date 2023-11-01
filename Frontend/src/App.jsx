@@ -9,6 +9,11 @@ import './App.css'
 import Login from "./screens/Login";
 import Signup from "./screens/Signup";
 import NftListing from "./screens/NftListing";
+//import { AppProps } from "next/app";
+//import { ThirdwebProvider } from "@thirdweb-dev/react";
+//import Navbar from "../components/Navbar";
+
+const activeChain = "Sepolia";
 
 function App() {
 
@@ -25,4 +30,17 @@ function App() {
   )
 }
 
-export default App
+export default App;
+
+/*function MyApp({ Component, pageProps }) {
+  return (
+    <ThirdwebProvider activeChain={activeChain}>
+      
+        <Navbar />
+        <Component {...pageProps} />
+      
+    </ThirdwebProvider>
+  );
+}*/
+
+

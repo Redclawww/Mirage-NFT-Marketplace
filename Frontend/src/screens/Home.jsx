@@ -12,15 +12,9 @@ import banner2 from "../assets/photos/Home/group1809.png";
 import nft from "../assets/photos/Home/nft.png";
 import arrow from "../assets/photos/Home/arrow.png";
 import apevid from "../assets/videos/playback.mp4";
-import React, {useContext} from 'react';
-import { TransactionContext } from "../context/TransactionContext";
+//import React, {useContext} from 'react';
 
-const Home = () => {
-  const {connectWallet, currentAccount} = useContext(TransactionContext);
-  
-  const handleSubmit = () => {
-
-  }
+function Home(){
   return (
     <div>
       <Navbar />
@@ -31,11 +25,7 @@ const Home = () => {
             <br />
             DECENTRALIZED REVOLUTION
           </h1>
-          {!currentAccount && (
-            <button
-              type = "button"
-              onClick={connectWallet}>Connect Wallet</button>
-          )}
+            <button>Connect Wallet</button>
           <video src={apevid} muted autoPlay loop></video>
         </div>
         <div className="page2">
